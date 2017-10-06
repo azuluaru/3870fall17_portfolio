@@ -1,0 +1,21 @@
+/* selector {property:value;} */
+
+
+.cell{border: 1px solid red;}
+
+header {background-color: rgb(102, 224, 255);
+        }
+h1 {display:inline;}
+nav {display:inline;}
+nav ul {display:inline;}
+nav li {display: inline;}
+
+.footer {background-color: rgb(102, 224, 255);}
+
+#indexpage
+
+
+#portfoliopage
+
+
+#aboutpage  
