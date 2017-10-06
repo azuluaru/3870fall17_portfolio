@@ -5,10 +5,24 @@
 
 header {background-color: rgb(102, 224, 255);
         }
-h1 {display:inline;}
+h1 {display:inline;
+    font-family: 'Chewy', cursive;
+    color: #FFFFFF;
+    }
+
 nav {display:inline;}
+
 nav ul {display:inline;}
-nav li {display: inline;}
+
+nav li {display: inline;
+
+        padding-top: 22px;
+        float: right;
+
+      }
+.cs-spaceright {padding-right: 130px;}
+.cs-spacerightend {padding-right: 150px;}
+
 
 .footer {background-color: rgb(102, 224, 255);}
 
@@ -18,4 +32,4 @@ nav li {display: inline;}
 #portfoliopage
 
 
-#aboutpage  
+#aboutpage
