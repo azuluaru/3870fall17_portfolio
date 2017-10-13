@@ -8,8 +8,23 @@
     <title>Cierrah Sherman:: Homepage</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <script type="text/javascript">
+      var d = new Date();
+      var time = d.getHours();
+
+      if (time < 20)
+        {
+        document.write('<link rel="stylesheet" href="css/app.css">');
+        }
+      else
+        {
+        document.write('<link rel="stylesheet" href="css/app.css">');
+        }
+      </script>
+
 
     <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 
   </head>
 
@@ -22,9 +37,9 @@
           <h1>Cierrah Sherman</h1>
             <nav>
               <ul>
-                <li><a class="cs-spacerightend" href="portfolio.html">Gallery</a></li>
-                <li><a class="cs-spaceright" href="about.html">About</a></li>
-                <li><a class="cs-spaceright current" href="index.html">Home</a></li>
+                <li><a class="cs-navspace cs-navbtn cs-othernav" href="portfolio.html">Gallery</a></li>
+                <li><a class="cs-navspace cs-navbtn cs-othernav" href="about.html">About</a></li>
+                <li><a class="cs-navspace cs-navbtn cs-mainnav" href="index.html">Home</a></li>
               </ul>
             </nav>
         </header>
@@ -32,21 +47,42 @@
 
 
           <div class="cell large-5">
-            <h4>Hi!</h4>
-            <p>This will eventually be a text block giving general info, referring to other pages, possibly in first person? Try not to be too obnoxious. Thanks.</p>
+            <h3 class="cs-greeting">
+              <script type="text/javascript">
+                  var d = new Date();
+                  var time = d.getHours();
 
-            <div class="cell">
-              <p>this will be a button</p>
+                  if (time < 12)
+                    {
+                    document.write("<b>Good Morning!</b>");
+                    }
+                  else if (time < 17)
+                    {
+                    document.write("<b>Good Afternoon!</b>");
+                    }
+                  else
+                    {
+                    document.write("<b>Good Evening!</b>");
+                    }
+                  </script>
+
+            </h3>
+            <p>Welcome to my portfolio website! This site was designed in 2017 as part of my Web Authoring class. It includes my some of my first uses of Javascript, as well as HTML and CSS.</p> <p>On the Gallery page, you'll find a few of my other works, as well as my other projects from Web Authoring. On the About page, you'll find some basic information about me, and the kind of artist I am! If you'd like to contact me, please either visit the About page or click the button below to find my contact information, and/or to give me yours.</p> <p>Thanks for visiting my website! I hope you enjoy it!</p>
+
+            <div class="cell cs-contactbutton">
+              <a href="about.html">Contact Me!</a>
             </div>
           </div>
 
           <div class="cell large-7">
-            <p>This will eventually be my main picture.</p>
+            <img class="cs-main" src="img/self-portrait.jpg" alt="stained glass portrait of me">
           </div>
 
           <div class="footer cell large-12">
             <footer>
-              <p>copyright info, footer</p>
+              <div class="cs-space">
+                <p> </p>
+              </div>
             </footer>
           </div>
 
