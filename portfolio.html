@@ -10,6 +10,19 @@
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script type="text/javascript">
+      var d = new Date();
+      var time = d.getHours();
+
+      if (time < 20)
+        {
+        document.write('<link rel="stylesheet" href="css/app.css">');
+        }
+      else
+        {
+        document.write('<link rel="stylesheet" href="css/appnight.css">');
+        }
+      </script>
 
   </head>
 
@@ -33,9 +46,12 @@
           <h3 class="cs-gallery">Gallery</h3>
         </div>
 
-        <div class="cell large-12">
+<div class="cell large-2">
 
-          <div id="myCarousel" class="orbit container" role="region" aria-label="Cierrah Sherman Gallery" data-orbit>
+</div>
+<div class="cell large-8">
+
+          <div class="orbit" role="region" aria-label="Cierrah Sherman Gallery" data-orbit>
   <div class="orbit-wrapper">
     <div class="orbit-controls">
       <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
@@ -44,7 +60,7 @@
     <ul class="orbit-container">
       <li class="is-active orbit-slide">
         <figure class="orbit-figure">
-          <img class="orbit-image " src="img/saturnshow.jpg" alt="Saturn Show poster">
+          <img class="orbit-image" src="img/saturnshow.jpg" alt="Saturn Show poster">
           <figcaption class="orbit-caption">The Saturn Show, a reinterpretation of 'The Moon Show', seen at MOMA in 2017.</figcaption>
         </figure>
       </li>
@@ -82,8 +98,10 @@
   </nav>
 </div>
 
-        </div>
+</div>
+<div class="cell large-2">
 
+</div>
 
 
 

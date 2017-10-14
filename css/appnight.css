@@ -3,7 +3,9 @@
 
 /*.cell{border: 1px solid red;}*/
 
-header {background-color: #11d4d4;
+body {background-color: #b3b3b3;}
+
+header {background-color: #000033;
         border: solid black 5px;
         }
 h1, h2, h3, h4, h5, h6 {font-family: 'Chewy', cursive;}
@@ -12,7 +14,7 @@ h1 {display:inline;
      float: left;
      margin-top: 10px;
      color: white;
-     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+
     }
 
 h3 {margin-top: 10px;
@@ -21,7 +23,7 @@ h3 {margin-top: 10px;
     margin-bottom: 18px;
     }
 
-a {color: black;
+a {color: white;
   font-family: 'Chewy', cursive;
   }
 
@@ -53,7 +55,7 @@ form {margin-left: 40px;
             line-height: 75px;
             text-align: center;
             }
-.cs-mainnav {background-image: url(../img/sun75.png);
+.cs-mainnav {background-image: url(../img/moon75.png);
           background-position: center;
           background-repeat: no-repeat;
           }
@@ -89,6 +91,6 @@ form {margin-left: 40px;
 
                 }
 
-.footer {background-color: #0D7F25;
+.footer {background-color: #1f6040;
         border: solid black 5px;
         }

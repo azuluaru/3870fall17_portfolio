@@ -18,7 +18,7 @@
         }
       else
         {
-        document.write('<link rel="stylesheet" href="css/app.css">');
+        document.write('<link rel="stylesheet" href="css/appnight.css">');
         }
       </script>
 
@@ -75,7 +75,20 @@
           </div>
 
           <div class="cell large-7">
-            <img class="cs-main" src="img/self-portrait.jpg" alt="stained glass portrait of me">
+            <script type="text/javascript">
+              var d = new Date();
+              var time = d.getHours();
+
+              if (time < 20)
+                {
+                document.write('<img class="cs-main" src="img/self-portrait.jpg" alt="stained glass portrait of me">');
+                }
+              else
+                {
+                document.write('<img class="cs-main" src="img/self-portrait-night.jpg" alt="stained glass portrait of me at night">');
+                }
+              </script>
+
           </div>
 
           <div class="footer cell large-12">

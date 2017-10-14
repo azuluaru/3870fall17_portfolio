@@ -10,6 +10,19 @@
     <link rel="stylesheet" href="css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Chewy" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script type="text/javascript">
+      var d = new Date();
+      var time = d.getHours();
+
+      if (time < 20)
+        {
+        document.write('<link rel="stylesheet" href="css/app.css">');
+        }
+      else
+        {
+        document.write('<link rel="stylesheet" href="css/appnight.css">');
+        }
+      </script>
 
   </head>
 
