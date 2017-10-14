@@ -1,0 +1,82 @@
+/* selector {property:value;} */
+
+
+/*.cell{border: 1px solid red;}*/
+
+header {background-color: #11d4d4;
+        border: solid black 5px;
+        }
+h1, h2, h3, h4, h5, h6 {font-family: 'Chewy', cursive;}
+
+h1 {display:inline;
+     float: left;
+     margin-top: 10px;
+     color: white;
+     text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    }
+
+h3 {margin-top: 10px;
+    padding-right: 10px;
+    color: black;
+    margin-bottom: 18px;
+    }
+
+a {color: black;
+  font-family: 'Chewy', cursive;
+  }
+
+nav {}
+
+nav ul {display:inline;}
+
+nav li {display: inline;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        float: right;
+        }
+
+p {font-family: 'Roboto Condensed', sans-serif;
+margin-left: 40px;
+  }
+
+.cs-navspace {padding-right: 140px;}
+
+
+.cs-main {padding: 30px 30px 20px 30px;}
+.cs-space {margin-top: 100px;}
+
+.cs-navbtn {display: inline-block;
+            line-height: 75px;
+            text-align: center;
+            }
+.cs-mainnav {background-image: url(../img/sun75.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          }
+.cs-othernav {background-image: url(../img/cloud75.png);
+              background-position: center;
+              background-repeat: no-repeat;
+              }
+.cs-contactbutton {text-align: center;
+                  background-image: url(../img/button-closed.png);
+                  background-repeat: no-repeat;
+                  line-height: 300px;
+                  font-size: 3em;
+                  margin-top: 40px;
+                  margin-left: 30px;
+                  }
+.cs-greeting {text-align: center;
+              margin-top: 30px;
+              }
+
+.footer {background-color: #0D7F25;
+        border: solid black 5px;
+        }
+
+#indexpage
+
+
+#portfoliopage
+
+
+#aboutpage

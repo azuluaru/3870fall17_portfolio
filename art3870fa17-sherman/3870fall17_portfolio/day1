@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+
+  <h1>https://jsbin.com/xagihes/edit?html,css,output</h1>
+  
+  
+ <p class="mobile">my phone rocks</p>
+  
+ <p class="desktop">this is the largest screen ever</p>
+  
+</body>
+</html>
